@@ -201,15 +201,3 @@ class BinarySearchTree:
                                     currentNode.Rson.value,
                                     currentNode.Rson.Lson,
                                     currentNode.Rson.Rson)
-
-
-
-
-tree = BinarySearchTree()
-tree[3]="rojo"
-tree[4]="azul"
-tree[6]="amarillo"
-tree[2]="en"
-
-print(tree[6])
-print(tree[2])
